@@ -139,7 +139,7 @@
 
 
 header{
-    background-image:url(/src/img/bg-header.jpg);
+    background-image:url(src/img/bg-header.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
