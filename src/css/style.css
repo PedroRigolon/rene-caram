@@ -131,6 +131,11 @@
     will-change: background-position;
     background-position: 100% 0; /* Movimento do gradiente para dar o efeito */
 }
+
+.hidden{
+    display: none;
+
+}
 /* GERAL */
 
 
@@ -149,7 +154,7 @@ header{
 
 .bg-header{
     display: flex;
-    background-color: rgba(0, 0, 0, 0.795);
+    background-color: rgba(0, 0, 0, 0.700);
     background-size: cover;
     align-self: center;
 }
@@ -157,6 +162,20 @@ header{
 .knowledge-container{
     align-items:center;
 }
+
+
+/* contato */
+
+#contact{
+    
+    background-image:url(../img/bg-contact.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+
+}
+
 
 @media (min-width: 576px) {
    

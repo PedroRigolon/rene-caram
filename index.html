@@ -38,14 +38,14 @@
                 </div>
 
                 <div class="col-11 col-sm-9 col-md-8 col-lg-6 col-xl-4">
-                    <a ><button class="btn btn-warning-custom fw-bold w-100">Entre em contato.</button></a>
+                    <a class="btn btn-warning-custom fw-bold w-100" href="#contact">Entre em contato.</a>
                 </div>
             </div>
         </div>
     </header>
 
 
-    <section class="mh-100vh d-flex justify-content-center align-items-start bg-dark">
+    <section class="mh-100vh d-flex justify-content-center align-items-start bg-dark" id="knowledge">
         <div class="container my-auto py-5">
             <div class="row text-center flex-column  align-items-center gap-5">
                 
@@ -110,6 +110,39 @@
             </div>
         </div>
     </section>
+
+
+     <!--Conteudo CONTATO-->
+     <div class="container-fluid mh-100vh d-flex align-items-center justify-content-center" id="contact">
+        <div class="row mh-100vh w-100 justify-content-center" id="contact-row">
+          <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center">
+            <div class="container-forms bg-white bg-opacity-75 p-4 rounded shadow text-dark" id="contact-content">
+              <h4 class="text-center fw-bold text-dark">Entre em <span class="brilho-animated">contato!</span></h4>
+              
+  
+                <div class="mb-3 mt-4">
+                  <label for="email" class="form-label fw-medium text-dark">Email</label>
+                  <input type="email" name="email" class="form-control" id="email" placeholder="Digite seu email">
+                </div>
+  
+                <div class="mb-3">
+                  <label for="message" class="form-label fw-medium text-dark">Mensagem</label>
+                  <textarea class="form-control" name="message" placeholder="Digite sua mensagem" id="message" rows="4" style="resize: none;"></textarea>
+                </div>
+  
+  
+                <button type="submit" id="my-form-button" class="btn btn-warning-custom fw-bold w-100 mt-3">Enviar</button>
+  
+                <p class="alert alert-success hidden" role="alert" id="my-form-status"></p>
+  
+              </form>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+  
+     
     
     
 
