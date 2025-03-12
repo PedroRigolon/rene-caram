@@ -45,7 +45,7 @@
 
 
 .mh-100vh{
-    min-height: 100vh;
+    min-height: 101vh;
 
 }
 
@@ -85,8 +85,6 @@
     border-radius: 18px;
 }
 
-
-
 .brilho-animated{
     animation: 3.4s linear infinite brilho;
     background-image: linear-gradient(45deg, #c99807, #ffe38e, #c99807, #ffe38e);
@@ -103,39 +101,11 @@
     transition: background-position 3s ease-in-out;
 }
 
-.knowledge-headline-bright{
-    transition: background-position 3s ease-in-out;
-
-}
-
-.knowledge-hover{
-    transition: transform 1s, box-shadow 1s;
-}
-
-.knowledge-hover:hover{
-    transform: scale(1.05);
-    box-shadow: 0px 0px 10px 0px #ffffff4f;
-    
-}
-
-
-.knowledge-hover:hover .icon, 
-.knowledge-hover:hover .knowledge-txt-bright {
-    animation: 3.4s linear infinite brilho;
-    background-image: linear-gradient(45deg, #c99807, #ffeebb, #c99807, #ffeebb);
-    background-size: 400% 100%;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent !important;
-    -webkit-text-fill-color: transparent;
-    will-change: background-position;
-    background-position: 100% 0; /* Movimento do gradiente para dar o efeito */
-}
-
 .hidden{
     display: none;
-
 }
+
+
 /* GERAL */
 
 
@@ -159,9 +129,41 @@ header{
     align-self: center;
 }
 
+/* conhecimento */
+
 .knowledge-container{
     align-items:center;
 }
+
+.knowledge-hover:hover .icon, 
+.knowledge-hover:hover .knowledge-txt-bright {
+    animation: 3.4s linear infinite brilho;
+    background-image: linear-gradient(45deg, #c99807, #ffeebb, #c99807, #ffeebb);
+    background-size: 400% 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent !important;
+    -webkit-text-fill-color: transparent;
+    will-change: background-position;
+    background-position: 100% 0; /* Movimento do gradiente para dar o efeito */
+}
+
+.knowledge-hover:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px 0px #ffffff4f;
+    
+}
+
+
+.knowledge-headline-bright{
+    transition: background-position 3s ease-in-out;
+
+}
+
+.knowledge-hover{
+    transition: transform 1s, box-shadow 1s;
+}
+
 
 /* contato */
 
@@ -181,6 +183,9 @@ header{
 }
 
 
+
+
+/* responsividade  */
 
 @media (min-width: 576px) {
    
